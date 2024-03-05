@@ -21,4 +21,4 @@ jobs:
 
       - name: Create EC2 instance
         run: |
-          aws ec2 run-instances --image-id ami-07d9b9ddc6cd8dd30 --count 1 --instance-type t2.micro --key-name <ansible1> --security-group-ids sg-0185741867f404fbc --subnet-id subnet-0784c1155f565373e --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=MyInstance}]'
+          aws ec2 run-instances --image-id ami-07d9b9ddc6cd8dd30 --count 2 --instance-type t2.micro --key-name ansible1 --security-group-ids sg-0185741867f404fbc --subnet-id subnet-0784c1155f565373e --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=MyInstance}]'
