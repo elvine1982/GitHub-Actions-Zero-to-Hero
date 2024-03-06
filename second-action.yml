@@ -1,1 +1,0 @@
- t2.micro --key-name ansible1 --security-group-ids sg-0185741867f404fbc --subnet-id subnet-0784c1155f565373e --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=MyInstance}]'
